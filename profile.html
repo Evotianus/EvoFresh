@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <link rel="stylesheet" href="styles/profile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="scripts/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="detail-container">
+            <div class="detail-navigation">
+                <div class="back-button" onclick="clickBack()">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <p>Profil</p>
+            </div>
+
+            <div class="detail-content">
+                <div class="detail-image" onclick="clickProfileDetail()">
+                    <img src="assets/Profile/profile.png" alt="">
+                </div>
+                <div class="detail-profile-name">
+                    Diandra
+                </div>
+                <div class="detail-profile-desc">
+                    Bergabung sejak 16 Juli 2022
+                </div>
+
+                <div class="detail-status">
+                    <div class="detail-status-title">
+                        <h2>Status Pembelian</h2>
+                    </div>
+                    
+                    <div class="status-box">
+                        <div class="paying">
+                            <i class="fa fa-shopping-cart" style="font-size:40px; color: #4c9a2a;"></i>
+                            <!-- <i class="fa-solid fa-credit-card" style="color: #4c9a2a;"></i> -->
+                            <!-- <i class="fa-regular fa-credit-card" style="color: #4c9a2a;"></i> -->
+                            <p>Paying</p>
+                        </div>
+    
+                        <div class="packing">
+                            <i class="fa fa-dropbox" style="font-size:40px; color: #4c9a2a;"></i>
+                            <p>Packing</p>
+                        </div>
+    
+                        <div class="sending">
+                            <i class="fa fa-truck" style="font-size:40px; color: #4c9a2a;"></i>
+                            <p>Sending</p>
+                        </div>
+
+                        <div class="done">
+                            <i class="material-icons"  style="font-size:40px; color: #4c9a2a;">&#xe876;</i>
+                            <p>Done</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-address">
+                    <div class="detail-address-title">
+                        <h2>Alamat</h2>
+                    </div>
+                    
+                    <div class="status-box-address" onclick="clickAddressDetail()">
+                        <div class="address-desc">
+                            <div class="address-title">
+                                <i class="material-icons" style="font-size:21px;color: #4c9a2a;">place</i>
+                                <h3>Rumah Talenta BCA</h3>
+                            </div>
+                            
+                            <p>Jl. Pakuan No.3, Sumur Batu, Kec. Babakan Madang,<br> Kabupaten Bogor, Jawa Barat 16810, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-etc">
+                    <div class="detail-etc-title">
+                        <h2>Lainnya</h2>
+                    </div>
+                    
+                    <div class="status-box-etc">
+                        <div class="pusat-bantuan">
+                            <i class="fa fa-question-circle-o" style="font-size:24px; color: #4c9a2a;"></i>
+                            <h3>Pusat Bantuan</h3>
+                        </div>
+                        <div class="produk-favorit">
+                            <i class="material-icons" style="color: #4c9a2a;">favorite_border</i>
+                            <h3>Produk Favorit</h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

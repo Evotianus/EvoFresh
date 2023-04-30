@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/keranjang.css">
+    <link rel="stylesheet" href="/styles/style-main.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style-main.css">
+    <link rel="stylesheet" href="styles/style-product_detail.css">
+    <script src="https://kit.fontawesome.com/6c7e621364.js" crossorigin="anonymous"></script>
+    <script src="scripts/index.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+    <div class="container" id="container">
+        <div id="black" class="black"></div>
+        <div class="keranjang-container">
+            <div class="keranjang-navbar">
+                <div class="keranjang-navigation">
+                  <div class="back-button" onclick="clickBack()">
+                    <i class="fa fa-angle-left"></i>
+                </div>
+                <p>Keranjang</p>
+            </div>
+
+            <div class="navbar-navigation">
+                    <div class="navigation-button">
+                        <img src="assets/keranjang/Rectangle 4 (2).png" alt="">
+                        <!-- aasdf -->
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="content">
+
+
+           
+
+            <div class="keranjang-content">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/tomat.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Tomat Merah</h3> </div>
+                            <div class="item-price"><h3>Rp7.800</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>1 kg</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                               <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            
+                            </div>
+                            <div class="item-update">
+                                <button id="minus1">-</button>
+                                <span id="value1">0</span>
+	                            <button id="plus1">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/nanas.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Nanas Kuning</h3> </div>
+                            <div class="item-price"><h3>Rp12.500</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>1 pcs</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                               <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            </div>
+                            <div class="item-update">
+                                <button id="minus2">-</button>
+                                <span id="value2">0</span>
+	                            <button id="plus2">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/pir.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Pir Korea</h3> </div>
+                            <div class="item-price"><h3>Rp30.800</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>300 gr</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                                <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            </div>
+                            <div class="item-update">
+                                <button id="minus3">-</button>
+                                <span id="value3">0</span>
+	                            <button id="plus3">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/apel.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Apel Medan</h3> </div>
+                            <div class="item-price"><h3>Rp30.000</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>400 gr</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                               <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            </div>
+                            <div class="item-update">
+                                <button id="minus4">-</button>
+                                <span id="value4">0</span>
+	                            <button id="plus4">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/anggur.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Anggur Siantar</h3> </div>
+                            <div class="item-price"><h3>Rp21.000</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>100 gr</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                                <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            </div>
+                            <div class="item-update">
+                                <button id="minus5">-</button>
+                                <span id="value5">0</span>
+	                            <button id="plus5">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="assets/keranjang/pisang.png" alt="">
+                    </div>
+                    <div class="item-desc">
+                        <div class="item-text">
+                            <div class="item-name"> <h3>Pisang Pontianak</h3> </div>
+                            <div class="item-price"><h3>Rp11.200</h3></div>
+                        </div>
+                        <div class="item-weight"><h5>1 kg</h5></div>
+                        <div class="item-edit">
+                            <div class="item-icon">
+                               
+                        <img class="remove" src="assets/keranjang/trash.png" alt="" onclick="openPopup()">
+                            </div>
+                            <div class="item-update">
+                                <button id="minus6">-</button>
+                                <span id="value6">0</span>
+	                            <button id="plus6">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="checkout.html">
+                <div class="checkout" >
+                <h3>Rp112.500</h3>
+                <img src="assets/keranjang/garis.png" alt="">
+                <h3>checkout Sekarang</h3>
+            </div></a>
+           
+
+
+        </div>
+            
+    </div>
+
+     <div id="popup">
+                <div class="popup-text">
+                <i class='fas fa-exclamation-circle' style='font-size:36px;color:red'></i>
+                    <p>Are you sure you want to remove this item?</p>
+                </div>
+                <div class="yesno">
+                    <div class="yes"><button class="button1" id="yes" onclick="closePopup()">Yes</button> </div>
+                    <div class="no"><button class="button2" id="no" onclick="closePopup()">No</button></div>
+                </div>
+            </div>
+    
+</body>
+<script src="scripts/keranjang.js"></script>
+</html>

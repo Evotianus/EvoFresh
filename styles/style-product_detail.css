@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-bottom: 100px;
+    /* height: calc(fit-content + 250px); */
     /* position: relative; */
 }
 
@@ -34,7 +36,30 @@
 
 .detail-content {
     width: 100%;
+    height: fit-content;
     position: relative;
+}
+
+.detail-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.detail-description > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail-description > strong {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+.detail-description > span {
+    opacity: 50%;
 }
 
 .detail-image {
@@ -112,10 +137,36 @@
 
 .button-container {
     position: fixed;
-    /* top: 100vh; */
-    bottom: 0;
-    left: 0;
+    display: flex;
+    max-width: 428px;
+    width: 428px;
+    height: fit-content;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
     z-index: 5;
-    transform: translateY(-100%);
+    /* transform: translateY(-100%); */
     background-color: green;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.button-container > div {
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button-container .button-cart {
+    color: white;
+    border: 2px solid white;
+}
+
+.button-container .button-buy {
+    background-color: white;
+    color: green;
+    flex-grow: 1;
+    text-align: center;
 }

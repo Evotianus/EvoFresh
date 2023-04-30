@@ -29,7 +29,7 @@ registerform.addEventListener("submit", (e) =>{
     }
 
     if (flag == 0){
-        window.location = "index.html"
+        window.location = "homepage.html"
     }
 
 
