@@ -37,10 +37,35 @@
     min-height: 80vh;
 }
 
+.detail-image {
+    position: relative;
+    /* width: fit-content; */
+}
+
 .detail-image img{
     position: relative;
     scale: 0.8;
     left: 25%;
+}
+
+.detail-image-edit {
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    border: 3px solid green;
+    bottom: 40px;
+    left: 55%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+    cursor: pointer;
 }
 
 .detail-profile-name{
