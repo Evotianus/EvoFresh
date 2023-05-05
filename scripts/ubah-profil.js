@@ -9,4 +9,6 @@ function changeProfile(event){
     var name = document.getElementById('name').value;
 
     localStorage.setItem('ls_name', name);
+
+    location.href = "homepage.html"
 }

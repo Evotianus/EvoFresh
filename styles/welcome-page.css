@@ -1,0 +1,72 @@
+@keyframes fade-welcome {
+    0% {
+        opacity: 100%;
+        display: block;
+        /* z-index: 100; */
+    }
+
+    80%{
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+        display: none;
+        z-index: -100;
+    }
+}
+
+.welcome-page {
+    max-height: 100vh;
+    min-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    animation-name: fade-welcome;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    z-index: 1000000;
+}
+
+.container {
+    background-image: url("../assets/Index/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(160, 160, 160);
+    background-blend-mode: multiply;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-content {
+    position: absolute;
+    z-index: 6;
+}
+
+.index-content-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-content-button .register button {
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid green;
+}
+
+.index-content-button .login button {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border: 2px solid green;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}

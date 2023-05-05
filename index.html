@@ -10,51 +10,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style-main.css">
-    <link rel="stylesheet" href="styles/style-login.css">
+    <link rel="stylesheet" href="styles/welcome-page.css">
     <script defer src="scripts/login.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="detail-container">
-            <!-- Logo -->
-            <div class="logo">
-                <img src="assets/Main-assets/logo.png" alt="">
-            </div>
-            <!-- Welcome Text -->
-            <div class="welcome-text">
-                <p>
-                    Let's get into <span style="color:green">EvoFresh</span>!
-                </p>
-            </div>
-            <!-- Form Content -->
-            <div class="form-content">
-                <form id="loginform" action="homepage.html">
-                    <!-- Form -->
-                        <div id="usernamebox">
-                            <label for="username" class="labels">Username</label>
-                            <input type="text" placeholder="Enter your username..." name="username" id="username" class="boxes" required>
-                            <div id="errorusername" class="error"></div>
-                        </div>
-                        <div id="passwordbox">
-                            <label for="password" class="labels">Password</label>
-                            <input type="password" placeholder="Enter your password..." name="password" id="password" class="boxes" required>
-                            <div id="errorpassword" class="error"></div>
-                        </div>
-                        <a href="homepage.html" style="width: 100%;">
-                        <div id="login-button">
-                                <button type="submit">Login</button>
-                            </div>
-                        </a>
-                        <!-- Form -->
-                </form>
-
-                        <div id="register-button">
-                            <a href="register.html">
-                                <p>
-                                    Register
-                                </p>
-                            </a>
-                        </div>
+        
+        <img src="assets/Homepage/Halaman-Sambutan.png" alt="" class="welcome-page">
+        <div class="index-content">
+            <img src="assets/Index/logo.png" alt="">
+            <br>
+            <br>
+            <div class="index-content-button">
+                <a href="register.html" class="register">
+                    <button>Register</button>
+                </a>
+                <a href="login.html" class="login">
+                    <button>Login</button>
+                </a>
             </div>
         </div>
     </div>

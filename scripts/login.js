@@ -21,7 +21,7 @@
 //     }
 
 //     if (flag == 0){
-//         window.location = "index.html"
+//         window.location = "login.html"
 //     }
 
 // })
