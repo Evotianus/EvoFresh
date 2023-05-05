@@ -1,0 +1,66 @@
+.container {
+    padding: 20px 30px;
+}
+
+.detail-navigation {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.detail-navigation .back-button {
+    border: 2px solid green;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.detail-navigation p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: green;
+}
+
+.detail-bantuan {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+.detail-bantuan p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detail {
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.detail .header {
+    font-size: 22px;
+    text-align: left;
+}
+
+.detail p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button-evofresh button {
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+}

@@ -269,6 +269,11 @@
     /* background-color: pink; */
     padding: 2px 2px 2px 5px;
 }
+
+.status-box-etc a {
+    text-decoration: none;
+    color: black;
+}
 .pusat-bantuan{
     margin-top: 15px;
     padding: 5px 5px 5px 5px;

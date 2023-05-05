@@ -9,6 +9,10 @@ function openPopup() {
   dark.style.display = "flex";
 //   change(container);
   setTimeout(closePopup,3000);
+
+  setTimeout(() => {
+    location.href = "homepage.html"
+  }, 3000);
 }
 function closePopup() {
   popup.style.display = "none";

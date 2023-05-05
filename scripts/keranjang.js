@@ -1,4 +1,4 @@
-    var value1 = 0;
+var value1 = 0;
 		var valueElem1 = document.getElementById("value1");
 
 		document.getElementById("plus1").addEventListener("click", function() {
@@ -8,8 +8,8 @@
 
 		document.getElementById("minus1").addEventListener("click", function() {
 			value1--;
-            if(value1 < 0){
-                value1 = 0;
+            if(value1 < 1){
+                value1 = 1;
             }
             valueElem1.innerText = value1;
 		});
@@ -25,8 +25,8 @@
 
 		document.getElementById("minus2").addEventListener("click", function() {
 			value2--;
-            if(value2 < 0){
-                value2 = 0;
+            if(value2 < 1){
+                value2 = 1;
             }
             valueElem2.innerText = value2;
 		});
@@ -41,8 +41,8 @@
 
      document.getElementById("minus3").addEventListener("click", function () {
        value3--;
-       if (value3 < 0) {
-         value3 = 0;
+       if (value3 < 1) {
+         value3 = 1;
        }
        valueElem3.innerText = value3;
      });
@@ -57,8 +57,8 @@
 
     document.getElementById("minus4").addEventListener("click", function () {
       value4--;
-      if (value4 < 0) {
-        value4 = 0;
+      if (value4 < 1) {
+        value4 = 1;
       }
       valueElem4.innerText = value4;
     });
@@ -73,8 +73,8 @@
 
    document.getElementById("minus5").addEventListener("click", function () {
      value5--;
-     if (value5 < 0) {
-       value5 = 0;
+     if (value5 < 1) {
+       value5 = 1;
      }
      valueElem5.innerText = value5;
    });
@@ -89,8 +89,8 @@
 
     document.getElementById("minus6").addEventListener("click", function () {
       value6--;
-      if (value6 < 0) {
-        value6 = 0;
+      if (value6 < 1) {
+        value6 = 1;
       }
       valueElem6.innerText = value6;
     });

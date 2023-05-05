@@ -23,3 +23,7 @@ function clickProfileDetail() {
 function clickAddressDetail() {
     location.href = "ubahalamat.html"
 }
+
+function clickCheckOut() {
+    location.href = "checkout.html"
+}

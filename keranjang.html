@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style-main.css">
-    <link rel="stylesheet" href="styles/style-product_detail.css">
+    <!-- <link rel="stylesheet" href="styles/style-product_detail.css"> -->
     <script src="https://kit.fontawesome.com/6c7e621364.js" crossorigin="anonymous"></script>
     <script src="scripts/index.js"></script>
 
@@ -22,30 +22,18 @@
 </head>
 <body>
     <div class="container" id="container">
-        <div id="black" class="black"></div>
-        <div class="keranjang-container">
-            <div class="keranjang-navbar">
-                <div class="keranjang-navigation">
-                  <div class="back-button" onclick="clickBack()">
-                    <i class="fa fa-angle-left"></i>
+       <div class="detail-container">
+            <div class="detail-navigation">
+                <div class="back-button">
+                    <a href="homepage.html">
+                        <i style="color: green;" class="fa fa-angle-left"></i>
+                    </a>
                 </div>
                 <p>Keranjang</p>
-            </div>
-
-            <div class="navbar-navigation">
-                    <div class="navigation-button">
-                        <img src="assets/keranjang/Rectangle 4 (2).png" alt="">
-                        <!-- aasdf -->
-                    </div>
-                </div>
             </div>
         </div>
        
         <div class="content">
-
-
-           
-
             <div class="keranjang-content">
                 <div class="item">
                     <div class="item-img">
@@ -64,7 +52,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus1">-</button>
-                                <span id="value1">0</span>
+                                <span id="value1">1</span>
 	                            <button id="plus1">+</button>
                             </div>
 
@@ -88,7 +76,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus2">-</button>
-                                <span id="value2">0</span>
+                                <span id="value2">1</span>
 	                            <button id="plus2">+</button>
                             </div>
 
@@ -111,7 +99,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus3">-</button>
-                                <span id="value3">0</span>
+                                <span id="value3">1</span>
 	                            <button id="plus3">+</button>
                             </div>
 
@@ -134,7 +122,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus4">-</button>
-                                <span id="value4">0</span>
+                                <span id="value4">1</span>
 	                            <button id="plus4">+</button>
                             </div>
 
@@ -157,7 +145,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus5">-</button>
-                                <span id="value5">0</span>
+                                <span id="value5">1</span>
 	                            <button id="plus5">+</button>
                             </div>
 
@@ -181,7 +169,7 @@
                             </div>
                             <div class="item-update">
                                 <button id="minus6">-</button>
-                                <span id="value6">0</span>
+                                <span id="value6">1</span>
 	                            <button id="plus6">+</button>
                             </div>
 
@@ -190,11 +178,11 @@
                 </div>
             </div>
 
-            <a href="checkout.html">
+            <a style="text-decoration: none;" href="checkout.html">
                 <div class="checkout" >
                 <h3>Rp112.500</h3>
                 <img src="assets/keranjang/garis.png" alt="">
-                <h3>checkout Sekarang</h3>
+                <h3 style="color: white; text-decoration: none;"> Checkout Sekarang</h3>
             </div></a>
            
 
